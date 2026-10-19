@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-medical-teal-50: #F3F8F8;
+  --color-medical-teal-100: #E2EFF0;
+  --color-medical-teal-600: #0D5C63;
+  --color-medical-teal-700: #0A4A50;
+  --color-medical-teal-800: #08373B;
+  --color-medical-teal-950: #041E20;
+  
+  --color-warm-cream-50: #FDFBF7;
+  --color-warm-cream-100: #F8F5EC;
+  --color-warm-cream-200: #E2E2D5;
+  --color-warm-cream-900: #2C2C26;
+}
+
+@layer utilities {
+  .serif-heading {
+    font-family: "Fraunces", "Georgia", serif;
+  }
+  .data-mono {
+    font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .teal-accent {
+    color: #0D5C63;
+  }
+  .bg-teal-accent {
+    background-color: #0D5C63;
+  }
+  .bg-offwhite {
+    background-color: #FDFBF7;
+  }
+  .border-warm {
+    border-color: #E2E2D5;
+  }
+}
+

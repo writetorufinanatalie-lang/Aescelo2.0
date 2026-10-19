@@ -1,0 +1,6 @@
+{
+  "name": "Aesculo",
+  "description": "Understand your medical documents. Translate clinical jargon and lab reports into plain language, highlighting key items to discuss with your healthcare provider.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
